@@ -1,0 +1,3 @@
+[build]
+  publish = './playground/public'
+  command = 'npm run fancy-build-command'

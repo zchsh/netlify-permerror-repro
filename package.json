@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "fancy-build-command": "npm run playground:bootstrap",
     "playground:bootstrap": "cd playground && npm i && npm link ../node_modules/react && npm link ../node_modules/react-dom"
   },
   "keywords": [],
