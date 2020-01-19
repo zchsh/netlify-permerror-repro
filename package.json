@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "playground:bootstrap": "cd playground && npm i"
+    "playground:bootstrap": "cd playground && npm i && npm link ../node_modules/react && npm link ../node_modules/react-dom"
   },
   "keywords": [],
   "author": "",
